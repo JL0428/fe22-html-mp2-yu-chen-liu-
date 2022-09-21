@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.logo {
+    float: left;
+    width:"77px";
+    height:"62px";   
+    }
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    opacity: 0.8;
+    height: 60px;
+    position:sticky;
+}
+
+.navbar a {
+    float: right;
+    display:block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+.navbar a:hover {
+    background-color:#ddd;
+    color: rgb(67, 1, 1);
+}
+
+
+.information{
+    color: rgb(255, 255, 255);
+    margin: 120px 200px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 26px;
+    text-shadow: 5px 5px 10px #790703;
+}
+
+.information p {
+font-size: 18px;
+font-family: Arial;
+line-height: 200%;
+text-shadow: 2px 2px 5px #000000;
+}
+
+.meny{
+    justify-content: space-between;
+    gap: 3%;
+    margin:2rem 1rem 2rem 1rem;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    z-index: 9;
+    height:auto;
+}
+
+.span-4{
+    flex-basis: 100%;
+    font-size: 14px;
+    font-family: Arial;
+    color: rgb(77, 77, 77);
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.span-4 h4{
+    font-size: 16px;
+    font-family: Arial;
+    color: rgb(134, 31, 3);
+    text-align: center;
+    
+}
+
+img{
+    width: 100%;
+}
+.form-container {
+width: 400px;
+height: 270px;
+padding: 30px;
+font-size: 15px;
+font-family: Arial;
+position: absolute;
+top:20% ; left: 30%;
+color: rgb(239, 239, 239);
+box-shadow: rgb(136, 3, 3) 0px 4px 16px, rgba(224, 26, 4, 0.05) 0px 8px 32px;
+background-color: rgb(144, 58, 2);
+margin-bottom: 150px;
+opacity:0.9;
+border-radius: 5px;
+}
+
+.form-container h2 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.form-container button {
+    background-color: #ddd;
+    border-color: rgb(61, 1, 1);
+    color: rgb(131, 1, 1);
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+.form-container button :hover {
+    color: #ddd;
+    background-color: rgb(131, 1, 1);
+}
+
+.fotter-container {
+    background-color: rgb(78, 1, 1);
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    height: 100px;
+}
+
+.fotter-container h4 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.fotter-container p {
+  display: inline;
+  font-family: Arial;
+  font-size: 14px;
+  padding-left: 20px;
+  float: left;
+  color: rgb(198, 199, 199);
+}
+
+.fotter-container p:hover{
+    cursor:pointer ;
+    color: rgb(255, 255, 255);
+}
